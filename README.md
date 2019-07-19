@@ -15,7 +15,7 @@ pip install mysql-connector-python smtplibaio openpyxl
 
 ###Если хотите использовать свой SMTP, а не локальный, расскоментируйте следующие строки и введите ваши данные
 ```python
-	#server = smtplib.SMTP("SMTP IP", 25)
+    #server = smtplib.SMTP("SMTP IP", 25)
     #server.ehlo()
     #server.starttls()
     #server.esmtp_features['auth'] = 'LOGIN PLAIN'
